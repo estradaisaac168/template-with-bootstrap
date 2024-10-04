@@ -1,0 +1,56 @@
+// COLOR THEME
+$primary-color: #000;  
+$secondary-color: #000;  
+$accent-color: #000;  
+
+$white: #000; 
+$black: #000;  
+$red: #000; 
+$grey: #000;  
+
+// FONTS
+$font-secondary: 'Roboto', sans-serif;  
+$font-primary: 'Merriweather', serif; 
+
+// FONT WEIGHTS
+$font-weight-light: 300;  // LIGHT WEIGHT
+$font-weight-normal: 400;  // NORMAL WEIGHT
+$font-weight-bold: 700;  // BOLD WEIGHT
+$font-weight-extra-bold: 900;  // EXTRA BOLD WEIGHT
+
+// SPACE (VALUES IN REM)
+$spacing-xs: 0.25rem;  // 4PX
+$spacing-sm: 0.5rem;  // 8PX
+$spacing-md: 1rem;  // 16PX
+$spacing-lg: 1.5rem;  // 24PX
+$spacing-xl: 2.5rem;  // 40PX
+$spacing-xxl: 3.75rem;  // 60PX
+
+// LINE HEIGHT (VALORES EN REM)
+$line-height-xs: 1rem;  // 16PX
+$line-height-sm: 1.25rem;  // 20PX
+$line-height-md: 1.5rem;  // 24PX
+$line-height-lg: 1.75rem;  // 28PX
+$line-height-xl: 2rem;  // 32PX
+$line-height-xxl: 2.5rem;  // 40PX
+
+// BORDER RADIUS
+$border-radius-sm: 0.25rem;  // 4PX
+$border-radius-md: 0.5rem;  // 8PX
+$border-radius-lg: 1rem;  // 16PX
+
+// Z-INDEX (NIVELES DE APILAMIENTO)
+$z-index-low: 10;
+$z-index-medium: 50;
+$z-index-high: 100;
+$z-index-top: 999;  // PARA MODALES O MENÚS DESPLEGABLES
+
+
+// BREAKPOINTS
+$breakpoint-xs: 0;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+$breakpoint-xxl: 1400px;
+

@@ -1,0 +1,24 @@
+@use '../base/variables' as v;
+
+
+$theme-colors: (
+    "primary": v.$primary-color,
+    "secondary": v.$secondary-color
+);
+
+// Create your own map
+$custom-colors: (
+    "tertiary": v.$tertiary-color,
+    "accent": v.$accent-color,
+    "red":v.$red,
+    "grey": v.$grey
+);
+
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+$font-family-sans-serif: v.$font-secondary;
+$font-family-monospace: v.$font-primary;
+
+@import "../../bootstrap/scss/bootstrap.scss";
